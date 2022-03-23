@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js",
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "firebase-admin": "^8.10.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nodemon": "^1.19.4"
+  }
+}
